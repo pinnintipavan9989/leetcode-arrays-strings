@@ -15,5 +15,6 @@ def longestValidParentheses(s):
     return max_len
 
 print(longestValidParentheses("(()")) 
-
+print(longestValidParentheses("())()(()"))
 print(longestValidParentheses(")()())")) 
+print(longestValidParentheses(" ")) 
