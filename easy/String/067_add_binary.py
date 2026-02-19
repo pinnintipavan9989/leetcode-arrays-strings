@@ -1,4 +1,3 @@
-
 def addBinary(a, b):
     p1, p2 = len(a) - 1, len(b) - 1
     carry = 0
@@ -16,3 +15,8 @@ def addBinary(a, b):
         p2 -= 1
 
     return "".join(reversed(result))
+
+
+print(addBinary("1010", "1011")) 
+print(addBinary("11", "1"))      
+print(addBinary("1", "111"))      
