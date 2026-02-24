@@ -18,4 +18,13 @@ def addTwoNumbers(l1, l2):
         if l2: l2 = l2.next
     return dummy.next
 
+def printList(node):
+    while node:
+        print(node.val, end=" ")
+        node = node.next
+    print()
 
+l1 = ListNode(2, ListNode(4, ListNode(3)))
+l2 = ListNode(5, ListNode(6, ListNode(4)))
+result = addTwoNumbers(l1, l2)
+printList(result)
